@@ -10,4 +10,56 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+
+    
 }
+
+
+* {
+  /* background-color: aqua; */
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden;
+}
+
+
+.navbar {
+  padding: 0;
+  background: aqua;
+  font-weight: bolder;
+  /* height: 20vh; */
+  width: 100vw;
+}
+
+.test2 a {
+  color: rgba(255, 255, 255);
+  text-decoration: none;
+
+}
+
+.my-navbar {
+  width: 100%;
+
+ padding-top: 50px;
+ display: flex;
+ justify-content: space-evenly;
+ 
+}
+
+.my-navbar li {
+  color: rgb(255, 255, 255) !important;
+  list-style-type: none;
+}
+
+
+.avatar {
+  width: 100%;
+
+}
+
+
+h1 {
+  overflow-y: hidden;
+}
+
+
