@@ -1,14 +1,13 @@
 import drum from '../../assets/drum.jpg'
+import Test from '../../components/Test'
 
 const Accueil = () =>  {
 
   return(
 
-   <section>
-      <img src={drum} className='avatar'></img>
-
+   <section>     
+      <Test />
    </section>
-
   )
 }
 

@@ -8,7 +8,7 @@ const Navbar = () => {
 
   return (
     <div className=''>
-      <nav className="navbar ">
+      <nav className="navbar shift">
         <ul className='my-navbar'>
           <li>
             <Link to='/'> Accueil</Link>
