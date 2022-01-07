@@ -1,7 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Vujahday+Script&display=swap');
 
+
+@font-face {
+  font-family: 'Original';
+  src: local('Original'), url(./fonts/original/Original.otf) format('OpenType');
+}
+
 body {
-  margin: 0;
+  
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -29,30 +35,55 @@ code {
 
  /* navbar css */
 
+ nav {
+   padding: 0;
+ } 
+
 .navbar {
   padding: 0;
-  font-weight: bolder;
+  /* font-weight: bolder; */
   height: 20vh;
   width: 100vw;  
-  background-color: #fcba04;
+  background-image: linear-gradient(-20deg, #dcb0ed 0%, #99c99c 100%);
+  vertical-align: middle;
+
+  /* background-color: #fcba04; */
 }
 
 .navbar a {
-  color: #5aa9e6;
+  /* color: #4a4e69; */
   font-size: 35px;
   letter-spacing: 2px;
-  font-family: 'Vujahday Script', cursive;
-  background-color: #fcba04;
-
+  font-family: 'Original';
+  background-color: inherit;
+  text-decoration: none;
 }
 
+a:link {
+  color: #4a4e69;
+}
+
+a:visited {
+  color: #4a4e69;
+}
+
+a:hover {
+  color: #4a4e69 !important;
+  text-decoration: underline;
+}
+
+a:active {
+  color: black;
+}
 
 
 .my-navbar {
   width: 100%;
  display: flex;
  justify-content: space-evenly;
- background-color: #fcba04;
+ /* background-color: #fcba04; */
+ background-image: linear-gradient(-20deg, #dcb0ed 0%, #99c99c 100%);
+ 
  
 }
 
@@ -71,8 +102,8 @@ h1 {
 /* SOUND GALLERY */
 
 .sound-gallery {
-  background-color: pink;
-}
+  /* background-color: pink; */
+  background-image: linear-gradient(to right, #eea2a2 0%, #bbc1bf 19%, #57c6e1 42%, #b49fda 79%, #7ac5d8 100%);}
 
 .centered {
   display: flex;
@@ -112,3 +143,4 @@ h1 {
 }
 
 /* fin du trick */
+

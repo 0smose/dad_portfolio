@@ -7,8 +7,8 @@ import Galerie from '../pages/Galerie'
 const Navbar = () => {
 
   return (
-    <div className=''>
-      <nav className="navbar shift">
+    <div>
+      <nav className="navbar">
         <ul className='my-navbar'>
           <li>
             <Link to='/'> Accueil</Link>

@@ -10,9 +10,11 @@ const Galerie = () => {
 
   return (
 
+
     <section className="sound-gallery">
 
-      <h1 className="mt-5 mb-5">Galerie</h1> 
+
+      <h2 className=" pt-5 pb-5">SUNDAZ</h2> 
       
 
       {/* bandcamp section */}

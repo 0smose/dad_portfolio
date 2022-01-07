@@ -1,10 +1,11 @@
-import logo from './logo.svg';
 import {
   BrowserRouter as Router,
   Route,
   Routes,
   Link,
 } from 'react-router-dom';
+
+
 import Navbar from './components/Navbar';
 import Apropos from './pages/Apropos';
 import Accueil from './pages/Accueil';
