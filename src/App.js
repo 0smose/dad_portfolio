@@ -6,7 +6,7 @@ import {
 } from 'react-router-dom';
 
 
-import Navbar from './components/Navbar';
+import Navbar from './components/Navbar/Navbar';
 import Apropos from './pages/Apropos';
 import Accueil from './pages/Accueil';
 import Galerie from './pages/Galerie';
