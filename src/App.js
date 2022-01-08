@@ -25,10 +25,11 @@ function App() {
           <Routes>
             <Route path="/" element={<Accueil />}/>
             <Route path="Apropos" element={<Apropos/>}/>
-            <Route path="Galerie" element={<Galerie/>}/>
-            <Route path="Sundaz" element={<Sundaz />} />
-            <Route path="Sounge" element={<Sounge />} />
-            <Route path="TheDuet" element={<TheDuet />} />
+            <Route path="Galerie" element={<Galerie/>}>
+              <Route path="Sundaz" element={<Sundaz />} />
+              <Route path="Sounge" element={<Sounge />} />
+              <Route path="TheDuet" element={<TheDuet />} />
+            </Route>
           </Routes>
         </main>
       </Router>
