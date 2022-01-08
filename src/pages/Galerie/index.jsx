@@ -15,15 +15,29 @@ const Galerie = () => {
 
   return (
 
-    <section className="sound-gallery">
+    <section>
 
-        <nav className={classes.test}>
+        <div className={classes.test}>
 
-          <Link to ="Sounge">Sounge</Link>
-          <Link to ="Sundaz">Sundaz</Link>
-          <Link to ="TheDuet">The Duet & Fil d'Ercole</Link>
+          <div className={classes.sounge}>
 
-        </nav>
+            <Link className={classes.Link} to ="Sounge">Sounge</Link>
+
+          </div>  
+
+          <div className={classes.sundaz}>
+
+           <Link to ="Sundaz">Sundaz</Link>
+
+          </div>  
+
+          <div className={classes.theDuet}>
+
+            <Link to ="TheDuet">The Duet</Link>
+
+          </div>
+
+        </div>
 
         <Outlet />
      

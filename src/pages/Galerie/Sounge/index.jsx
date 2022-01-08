@@ -2,7 +2,7 @@ const Sounge = () => {
   
   return ( 
 
-      <div className="wrapper-youtube soungeSection">
+      <div className="wrapper-youtube ">
 
         <div className="youtube-video mb-3">
 
