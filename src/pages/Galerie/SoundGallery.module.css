@@ -1,4 +1,4 @@
-.test {
+.wrapper {
 
   display: flex;
   padding-top: 80px;
@@ -10,18 +10,47 @@
 
 .sounge {
   transform: rotate(-90deg);
-  font-size: 10vh;
+  font-size: 5rem;
   
 
 }
 
 .sundaz {
-  transform: rotate(-90deg);  transform: rotate(-90deg);
-  font-size: 10vh;
+  transform: rotate(-90deg);
+  font-size: 5rem;
   
 }
 
 .theDuet {
   transform: rotate(-90deg);
-  font-size: 10vh;    
+  font-size: 5rem;    
+}
+
+
+@media (max-width: 990px) {
+
+  .wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+  }
+
+  .sounge {
+    font-size: 3rem;
+    transform: rotate(0deg);
+
+  }
+
+  .sundaz {
+    font-size: 3rem;
+    transform: rotate(0deg);
+
+  }
+  
+  .theDuet {
+    font-size: 3rem;
+    transform: rotate(0deg);
+
+  }
 }

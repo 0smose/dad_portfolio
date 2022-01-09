@@ -9,19 +9,22 @@ import Sounge from './Sounge/index'
 import Sundaz from './Sundaz/index'
 import TheDuet from './TheDuet/index'
 import classes from './SoundGallery.module.css'
-
+import { useState, useEffect } from 'react'
 
 const Galerie = () => {
 
+ 
   return (
 
-    <section>
 
-        <div className={classes.test}>
+
+    <section>
+      
+        <div className={classes.wrapper}>
 
           <div className={classes.sounge}>
 
-            <Link className={classes.Link} to ="Sounge">Sounge</Link>
+            <Link to ="Sounge">Sounge</Link>
 
           </div>  
 
