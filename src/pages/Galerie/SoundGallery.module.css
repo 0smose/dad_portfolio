@@ -10,21 +10,28 @@
 
 .sounge {
   transform: rotate(-90deg);
-  font-size: 5rem;
-  
+  font-size: 7rem;  
 
 }
 
 .sundaz {
   transform: rotate(-90deg);
-  font-size: 5rem;
+  font-size: 7rem;
   
 }
 
 .theDuet {
   transform: rotate(-90deg);
-  font-size: 5rem;    
+  font-size: 7rem;
+  white-space: nowrap;
 }
+
+
+.Bazar {
+  transform: rotate(-90deg);
+  font-size: 7rem;    
+}
+
 
 
 @media (max-width: 990px) {

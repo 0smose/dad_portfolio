@@ -22,23 +22,29 @@ const Galerie = () => {
       
         <div className={classes.wrapper}>
 
-          <div className={classes.sounge}>
+            <div className={classes.sounge}>
 
-            <Link to ="Sounge">Sounge</Link>
+              <Link to ="Sounge">Sounge</Link>
 
-          </div>  
+            </div>  
 
-          <div className={classes.sundaz}>
+            <div className={classes.sundaz}>
 
-           <Link to ="Sundaz">Sundaz</Link>
+            <Link to ="Sundaz">Sundaz</Link>
 
-          </div>  
+            </div>  
 
-          <div className={classes.theDuet}>
+            <div className={classes.theDuet}>
 
-            <Link to ="TheDuet">The Duet</Link>
+              <Link to ="TheDuet">The Duet</Link>
 
-          </div>
+            </div>
+
+            <div className={classes.theDuet}>
+
+              <Link to ="Bazar">Bazar</Link>
+
+            </div>
 
         </div>
 

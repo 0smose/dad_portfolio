@@ -62,6 +62,20 @@ h1 {
 }
 
 
+
+/* BANDCAMP SUNDAZ */
+
+.bandcamp {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap; 
+}
+
+.bandcamp iframe{
+
+  margin-bottom: 3rem;
+}
+
 .icon{
   display: inline ;
   margin-top: 100px;
@@ -77,15 +91,30 @@ h1 {
   transform: scale(1.2);
 }
 
+.soundcloud {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.soundcloud > * {
+  margin-bottom: 3rem;
+}
+
+
 
 /* trick pour resize la video youtube pour des écrans inférieurs à 600 px */
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1024px) {
 
   .youtube-video {
     position: relative;
-    width: 100%;
-    padding-bottom: 56.25%; 
+    width: 80%;
+    padding-bottom: 45%; 
     height: 0;
   }
 
@@ -102,6 +131,12 @@ h1 {
     flex-direction: column;
     
   }
+
+.soundcloud iframe{
+  position: relative;
+  width: 80%;
+  height: 100%;
+}
 
 }
 
