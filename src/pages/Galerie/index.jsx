@@ -40,7 +40,7 @@ const Galerie = () => {
 
             </div>
 
-            <div className={classes.theDuet}>
+            <div className={classes.Bazar}>
 
               <Link to ="Bazar">Bazar</Link>
 

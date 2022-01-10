@@ -1,3 +1,9 @@
+@font-face {
+  font-family: 'theboldfont';
+  src: local('theboldfont'), url(../../fonts/theboldfont.ttf) format('truetype');
+}
+
+
 .wrapper {
 
   display: flex;
@@ -6,6 +12,11 @@
   align-items: center;
   justify-content: space-around;
 
+}
+
+.wrapper a {
+  font-family: 'theboldfont';
+  color: #655560;
 }
 
 .sounge {
@@ -32,9 +43,24 @@
   font-size: 7rem;    
 }
 
+.Bazar a:hover {
+  color: #9808f8;
+}
+
+.theDuet a:hover {
+  color: #f8ee59;
+}
+
+.sundaz a:hover {
+  color: #ff097c;
+}
+
+.sounge a:hover {
+  color: #0b7af8;
+}
 
 
-@media (max-width: 990px) {
+@media (max-width: 1024px) {
 
   .wrapper {
     display: flex;
@@ -44,19 +70,25 @@
   }
 
   .sounge {
-    font-size: 3rem;
+    font-size: 2rem;
     transform: rotate(0deg);
 
   }
 
   .sundaz {
-    font-size: 3rem;
+    font-size: 2rem;
     transform: rotate(0deg);
 
   }
   
   .theDuet {
-    font-size: 3rem;
+    font-size: 2rem;
+    transform: rotate(0deg);
+
+  }
+
+  .Bazar {
+    font-size: 2rem;
     transform: rotate(0deg);
 
   }
