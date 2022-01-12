@@ -18,7 +18,7 @@ const Sundaz = (props) => {
 
           <div className="bandcamp">
 
-            <h2 className="sundaz">SUNDAZ</h2> 
+            <h2 id="sundaz">SUNDAZ</h2> 
 
             <iframe style={{border: "0", width: "", height: "442px"}} src="https://bandcamp.com/EmbeddedPlayer/track=2591559087/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/" seamless><a href="https://sundaz.bandcamp.com/track/andaz">Andaz by Sundaz</a></iframe>
                       

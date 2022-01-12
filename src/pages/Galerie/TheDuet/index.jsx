@@ -16,7 +16,7 @@ const TheDuet = () => {
 
       <div className="wrapper-youtube">
 
-        <h2>The Duet</h2>
+        <h2 id="theDuet">The Duet</h2>
 
         <div className="youtube-video mb-5">
 

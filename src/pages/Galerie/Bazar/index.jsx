@@ -1,4 +1,4 @@
-import {BsArrowLeft} from 'react-icons/bs'
+ import {BsArrowLeft} from 'react-icons/bs'
 import {useNavigate} from "react-router-dom";
 
 
@@ -18,7 +18,7 @@ const Bazar = () => {
 
     <div className="wrapper-youtube">
 
-        <h2>Bazar</h2>  
+        <h2 id="bazar">Bazar</h2>  
    
         <div className="youtube-video mb-5">
 
