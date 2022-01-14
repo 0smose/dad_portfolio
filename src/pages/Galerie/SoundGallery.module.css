@@ -11,36 +11,69 @@
   height: 100vh;
   align-items: center;
   justify-content: space-around;
+  flex: 1 1 auto;
 
+}
+
+.container {
+  height: 100vh;
 }
 
 .wrapper a {
   font-family: 'theboldfont';
   color: #655560;
+  writing-mode: vertical-rl;
+  transform: rotate(-180deg);
+
+  /* letter-spacing: -25px; */
+  display: inherit;
+  
 }
 
+
 .sounge {
-  transform: rotate(-90deg);
-  font-size: 7rem;  
+  font-size: 7rem;
+  writing-mode: vertical-rl;
+  order: 4;
+
 
 }
 
 .sundaz {
-  transform: rotate(-90deg);
   font-size: 7rem;
+  writing-mode: vertical-rl;
+  
+  order: 1;
+
+
   
 }
 
 .theDuet {
-  transform: rotate(-90deg);
   font-size: 7rem;
+  writing-mode: vertical-rl;
   white-space: nowrap;
+  /* word-spacing: -.4ch; */
+  order: 2;
+
 }
 
 
 .Bazar {
-  transform: rotate(-90deg);
   font-size: 7rem;    
+  writing-mode: vertical-rl;
+  order: 5;  
+}
+
+.Solidbody {
+  font-size: 7rem;    
+  writing-mode: vertical-rl;
+  order: 3; 
+}
+
+
+.Solidbody a:hover {
+  color: #27F23F;
 }
 
 .Bazar a:hover {
@@ -48,11 +81,10 @@
 }
 
 .theDuet a:hover {
-  color: #fff706;
-}
+  color: #ff097c;}
 
 .sundaz a:hover {
-  color: #ff097c;
+  color: #fff706;  
 }
 
 .sounge a:hover {
@@ -60,7 +92,10 @@
 }
 
 
-@media (max-width: 1024px) {
+
+ /* CELLPHONE */
+
+@media (max-width: 767px) {
 
   .wrapper {
     display: flex;
@@ -69,27 +104,141 @@
 
   }
 
-  .sounge {
-    font-size: 2rem;
-    transform: rotate(0deg);
+
+  .wrapper a {
+    transform: rotate(-90deg);
 
   }
 
-  .sundaz {
+  .sounge a {
     font-size: 2rem;
-    transform: rotate(0deg);
+    color: #0b7af8;
+  }
+
+  .sundaz a {
+    font-size: 2rem;
+    color: #fff706;  
 
   }
   
-  .theDuet {
+  .theDuet a {
     font-size: 2rem;
-    transform: rotate(0deg);
+    color: #ff097c;
 
   }
 
-  .Bazar {
+  .Bazar a{
     font-size: 2rem;
-    transform: rotate(0deg);
+    color: #9808f8;
+
 
   }
+
+  .Solidbody a{
+    font-size: 2rem;
+    color: #27F23F;
+
+  }
+}
+
+
+
+/* IPAD PRO*/
+
+
+@media (min-width: 767px ) and (max-width: 1024px) {
+
+  .wrapper {
+    padding-top: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+  }
+
+
+  .wrapper a {
+    transform: rotate(-90deg);
+  }
+
+  .sounge a {
+    font-size: 4rem;
+    color: #0b7af8;
+  }
+
+  .sundaz a {
+    font-size: 4rem;
+    color: #fff706;  
+
+  }
+  
+  .theDuet a {
+    font-size: 4rem;
+    color: #ff097c;
+
+  }
+
+  .Bazar a{
+    font-size: 4rem;
+    color: #9808f8;
+
+
+  }
+
+  .Solidbody a{
+    font-size: 4rem;
+    color: #27F23F;
+
+  }
+}
+
+
+/* REGULAR IPAD */
+
+
+@media (min-width: 600px ) and (max-width: 800px) {
+
+  .wrapper {
+    padding-top: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+  }
+
+
+  .wrapper a {
+    transform: rotate(-90deg);
+
+  }
+
+    .sounge a {
+    font-size: 4rem;
+    color: #0b7af8;
+  }
+
+  .sundaz a {
+    font-size: 4rem;
+    color: #fff706;  
+
+  }
+  
+  .theDuet a {
+    font-size: 4rem;
+    color: #ff097c;
+
+  }
+
+  .Bazar a{
+    font-size: 4rem;
+    color: #9808f8;
+
+  }
+
+  .Solidbody a{
+    font-size: 4rem;
+    color: #27F23F;
+
+  }
+  
 }

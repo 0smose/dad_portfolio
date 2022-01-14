@@ -17,6 +17,7 @@ import Sundaz from './pages/Galerie/Sundaz';
 import Sounge from './pages/Galerie/Sounge';
 import TheDuet from './pages/Galerie/TheDuet';
 import Bazar from './pages/Galerie/Bazar';
+import Solidbody from './pages/Galerie/SolidBody';
 
 
 function App() {
@@ -32,6 +33,7 @@ function App() {
             <Route path="Galerie/Sundaz" element={<Sundaz />} />
             <Route path="Galerie/Sounge" element={<Sounge />} />
             <Route path="Galerie/TheDuet" element={<TheDuet />} />
+            <Route path="Galerie/Solidbody" element={<Solidbody />} />
             <Route path="Galerie/Bazar" element={<Bazar />} />
             <Route path="*" element={<ErrorPage />} />
           

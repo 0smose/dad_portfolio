@@ -40,6 +40,13 @@ const Galerie = () => {
 
             </div>
 
+
+            <div className={classes.Solidbody}>
+
+              <Link to ="Solidbody">Solidbody</Link>
+
+            </div>  
+
             <div className={classes.Bazar}>
 
               <Link to ="Bazar">Bazar</Link>
@@ -51,6 +58,51 @@ const Galerie = () => {
         <Outlet />
      
     </section>
+
+
+      // <Container fluid classname='container'>
+
+      //   <Row>
+
+      //     <Col>
+
+      //     Sounge
+          
+      //     </Col>
+
+      //     <Col>
+
+      //     The Duet
+          
+      //     </Col>
+
+      //     <Col>
+
+      //     Sundaz
+          
+      //     </Col>
+
+      //     <Col>
+
+      //       Solidbody
+
+      //     </Col>
+
+      //     <Col>
+
+      //       Bazar
+          
+      //     </Col>
+
+
+
+
+
+
+
+      //   </Row>
+
+      // </Container>
 
   )
 }
