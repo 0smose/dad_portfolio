@@ -1,0 +1,22 @@
+.arrowIcon {
+  font-size: 60px;
+}
+
+/* IPAD et IPAD PRO */
+
+@media (max-width: 1024px) {
+  .arrowIcon {
+    font-size: 50px;
+  }
+  
+}
+
+/* CELLPHONE */
+
+@media (max-width: 767px) {
+  .arrowIcon {
+    font-size: 30px;
+    margin-left: -20px;
+  }
+
+}

@@ -7,8 +7,8 @@
 .wrapper {
 
   display: flex;
-  padding-top: 80px;
-  height: 100vh;
+  /* padding-top: 80px; */
+  height: 95vh;
   align-items: center;
   justify-content: space-around;
   flex: 1 1 auto;
@@ -101,6 +101,7 @@
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+    height: 100vh;
 
   }
 
@@ -149,10 +150,11 @@
 @media (min-width: 767px ) and (max-width: 1024px) {
 
   .wrapper {
-    padding-top: 200px;
+    height: 95vh;
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    /* justify-content: space-evenly; */
+    /* align-items: center; */
 
   }
 
@@ -199,10 +201,10 @@
 @media (min-width: 600px ) and (max-width: 800px) {
 
   .wrapper {
-    padding-top: 450px;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+    height: 100vh;
 
   }
 
@@ -213,30 +215,30 @@
   }
 
     .sounge a {
-    font-size: 4rem;
+    font-size: 3rem;
     color: #0b7af8;
   }
 
   .sundaz a {
-    font-size: 4rem;
+    font-size: 3rem;
     color: #fff706;  
 
   }
   
   .theDuet a {
-    font-size: 4rem;
+    font-size: 3rem;
     color: #ff097c;
 
   }
 
   .Bazar a{
-    font-size: 4rem;
+    font-size: 3rem;
     color: #9808f8;
 
   }
 
   .Solidbody a{
-    font-size: 4rem;
+    font-size: 3rem;
     color: #27F23F;
 
   }

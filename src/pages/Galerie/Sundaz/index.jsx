@@ -1,24 +1,18 @@
-import {BsArrowLeft} from 'react-icons/bs'
-import {useNavigate} from "react-router-dom";
+import NavigationArrow from '../../../components/NavigationArrow/NavigationArrow';
 
 const Sundaz = (props) => {
-
-  let navigation = useNavigate();
-
 
   return ( 
 
     <div>
 
-      <button className="icon" >       
-        <BsArrowLeft  onClick={() => navigation('/Galerie')} size="60px" color="rgb(255, 255, 255)"/>
-      </button>
+      <NavigationArrow />
       
         <div className="wrapper-youtube">
 
           <div className="bandcamp">
 
-            <h2 id="sundaz">SUNDAZ</h2> 
+            <h2 className="title" id="sundaz">SUNDAZ</h2> 
 
             <iframe style={{border: "0", width: "", height: "442px"}} src="https://bandcamp.com/EmbeddedPlayer/track=2591559087/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/" seamless><a href="https://sundaz.bandcamp.com/track/andaz">Andaz by Sundaz</a></iframe>
                       

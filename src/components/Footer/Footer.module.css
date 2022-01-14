@@ -1,5 +1,58 @@
+@font-face {
+  font-family: 'theboldfont';
+  src: local('theboldfont'), url(../../fonts/theboldfont.ttf) format('truetype');
+}
+
+
 footer {
-  display: flex;
-  height: 80px;
+  /* height: 5vh; */
   width: 100%;
+  margin: 0;
+  padding: 0;
+  margin-top: auto;
+}
+
+ul{
+  display: flex;
+  list-style-type: none;
+  justify-content: space-around;
+  color: aliceblue;
+  font-family: 'theboldfont';
+  font-variant: normal;
+  
+}
+
+@media (max-width: 1024px) {
+  
+  ul {
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 12px;
+  }
+}
+
+
+@media (max-width: 800px) {
+  
+  ul {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 600px) {
+
+  footer {
+    margin: 0;
+    padding: 0;
+  }
+  
+  ul {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    font-size: 6px;
+  }
 }

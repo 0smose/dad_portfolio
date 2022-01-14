@@ -23,20 +23,15 @@ import Solidbody from './pages/Galerie/SolidBody';
 function App() {
   return (
     <div className="App">
-      <Router>
-        <Navbar/>
-        
+      <Router>        
           <Routes>
-            <Route path="/" element={<Accueil />}/>
-            <Route path="Apropos" element={<Apropos/>}/>
-            <Route path="Galerie" element={<Galerie/>}/>
-            <Route path="Galerie/Sundaz" element={<Sundaz />} />
-            <Route path="Galerie/Sounge" element={<Sounge />} />
-            <Route path="Galerie/TheDuet" element={<TheDuet />} />
-            <Route path="Galerie/Solidbody" element={<Solidbody />} />
-            <Route path="Galerie/Bazar" element={<Bazar />} />
-            <Route path="*" element={<ErrorPage />} />
-          
+            <Route path="/" element={<Galerie />}/>
+            <Route path="/Sundaz" element={<Sundaz />} />
+            <Route path="/Sounge" element={<Sounge />} />
+            <Route path="/TheDuet" element={<TheDuet />} />
+            <Route path="/Solidbody" element={<Solidbody />} />
+            <Route path="/Bazar" element={<Bazar />} />
+            <Route path="*" element={<ErrorPage />} />      
           </Routes>
         <Footer/>
 

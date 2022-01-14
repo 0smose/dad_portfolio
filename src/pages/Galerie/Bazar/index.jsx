@@ -1,24 +1,18 @@
- import {BsArrowLeft} from 'react-icons/bs'
-import {useNavigate} from "react-router-dom";
-
+import { Nav } from 'react-bootstrap';
+import NavigationArrow from '../../../components/NavigationArrow/NavigationArrow';
 
 const Bazar = () => {
   
-  let navigation = useNavigate();
 
   return ( 
 
   <div>
-  
-    <button className="icon" >   
-
-      <BsArrowLeft  onClick={() => navigation('/Galerie')} size="60px" color="rgb(255, 255, 255)"/>
-
-    </button>
+    
+    <NavigationArrow />  
 
     <div className="wrapper-youtube">
 
-        <h2 id="bazar">Bazar</h2>  
+        <h2 className="title" id="bazar">Bazar</h2>  
    
         <div className="youtube-video mb-5">
 

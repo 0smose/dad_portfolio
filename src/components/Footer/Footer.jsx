@@ -7,6 +7,13 @@ const Footer = () => {
 
     <footer>
 
+      <ul>
+        <li> musique : Philippe d'Ercole & Co</li>
+        <li> design & developpement : robin.dercole@gmail.com</li>
+        <li> tous droits réservés</li>
+        
+      </ul>
+
     </footer>
 
    );

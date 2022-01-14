@@ -1,27 +1,20 @@
-import {BsArrowLeft} from 'react-icons/bs'
-import {useNavigate} from "react-router-dom";
+import NavigationArrow from '../../../components/NavigationArrow/NavigationArrow';
 
 
 const Solidbody = () => {
-  
-  let navigation = useNavigate();
 
   return ( 
 
-  <div>
+  <div className="solidbody">
   
-    <button className="icon" >   
-
-      <BsArrowLeft  onClick={() => navigation('/Galerie')} size="60px" color="rgb(255, 255, 255)"/>
-
-    </button>
+    <NavigationArrow/>
 
 
-    <div className="wrapper-youtube">
+    <div className="wrapper-youtube ">
 
-      <h2 id="Solidbody">Solidbody</h2>  
+      <h2 className="title" id="Solidbody">Solidbody</h2>  
 
-    </div>  
+    </div>
 
       <div className="soundcloud">
 
@@ -45,7 +38,7 @@ const Solidbody = () => {
 
         <iframe width="600px" height="200" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1195034635&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
 
-      </div>
+      </div> 
 
   </div>
 

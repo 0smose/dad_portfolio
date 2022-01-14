@@ -28,9 +28,10 @@ h1 {
 
 /* SOUND GALLERY */
 
-.sound-gallery {
-  padding-top: 100px;
-  height: 100vh;
+
+
+.title {
+  padding-top: 130px !important;
 }
 
 
@@ -50,6 +51,8 @@ h1 {
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
+  min-height: 95vh;
+
 }
 
 .wrapper-youtube h2 {
@@ -65,23 +68,29 @@ h1 {
 
 #bazar {
   color: #9808f8;
+  text-shadow: 7px 2px 2px #a46dc8;
 }
 
 #sounge {
   color: #0b7af8;
+  text-shadow: 7px 2px 2px #5186c3;
 
 }
 
 #theDuet {
   color: #ff097c;
+  text-shadow: 7px 2px 2px rgb(167, 145, 145);
 }
 
 #sundaz {
   color: #fff706;
+  text-shadow: 7px 2px 2px #61603c;
+  
 }
 
 #Solidbody{
   color: #27F23F;
+  text-shadow: 7px 2px 2px #73b87b;
 }
 
 
@@ -101,11 +110,12 @@ h1 {
 
 .icon{
   display: inline ;
-  margin-top: 100px;
+  margin-top: 50px;
   margin-left: 20px;
   background-color: inherit;
   border: none;
   color: rgb(13, 221, 221);
+  position: fixed;
 }
 
 
@@ -149,11 +159,6 @@ h1 {
     height: 100%;
   }
 
-  .sound-gallery {
-    display: flex;
-    flex-direction: column;
-    
-  }
 
 .soundcloud iframe{
   position: relative;
@@ -166,12 +171,48 @@ h1 {
   padding-bottom: 80px;
   padding-top: 40px;
   text-align: center;
-  font-size: 4rem;
+  font-size: 6rem;
   font-family: 'theboldfont';
   
 }
 
+.wrapper-youtube {
+  min-height: auto;
+
+  }
+
 }
+
+
+ /* CELLPHONES  */
+ @media (max-width: 767px) {
+  .wrapper-youtube h2 {
+    flex: 0 1 100%;
+    padding-bottom: 80px;
+    padding-top: 40px;
+    text-align: center;
+    font-size: 3rem;
+    font-family: 'theboldfont';
+    }
+}
+
+@media (max-width: 767px) {
+  .wrapper-youtube {
+    min-height: auto;
+
+    }
+}
+
+
+
 
 /* fin du trick */
 
+@media (min-width: 1100px) {
+
+  .solidbody > .soundcloud {
+    margin-top: -450px;
+  
+  }
+  
+}
