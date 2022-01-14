@@ -23,7 +23,7 @@ import Solidbody from './pages/Galerie/SolidBody';
 function App() {
   return (
     <div className="App">
-      <Router>        
+      <Router basename="/dad_portfolio">        
           <Routes>
             <Route path="/" element={<Galerie />}/>
             <Route path="/Sundaz" element={<Sundaz />} />
