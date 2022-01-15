@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/dad_portfolio/static/css/main.50ab1516.chunk.css",
-    "main.js": "/dad_portfolio/static/js/main.5098c5a3.chunk.js",
-    "main.js.map": "/dad_portfolio/static/js/main.5098c5a3.chunk.js.map",
+    "main.css": "/dad_portfolio/static/css/main.7e567f55.chunk.css",
+    "main.js": "/dad_portfolio/static/js/main.a20b701a.chunk.js",
+    "main.js.map": "/dad_portfolio/static/js/main.a20b701a.chunk.js.map",
     "runtime-main.js": "/dad_portfolio/static/js/runtime-main.778f6a17.js",
     "runtime-main.js.map": "/dad_portfolio/static/js/runtime-main.778f6a17.js.map",
     "static/css/2.4659568d.chunk.css": "/dad_portfolio/static/css/2.4659568d.chunk.css",
@@ -12,7 +12,7 @@
     "static/js/3.64cc858c.chunk.js.map": "/dad_portfolio/static/js/3.64cc858c.chunk.js.map",
     "index.html": "/dad_portfolio/index.html",
     "static/css/2.4659568d.chunk.css.map": "/dad_portfolio/static/css/2.4659568d.chunk.css.map",
-    "static/css/main.50ab1516.chunk.css.map": "/dad_portfolio/static/css/main.50ab1516.chunk.css.map",
+    "static/css/main.7e567f55.chunk.css.map": "/dad_portfolio/static/css/main.7e567f55.chunk.css.map",
     "static/js/2.cc0d6ded.chunk.js.LICENSE.txt": "/dad_portfolio/static/js/2.cc0d6ded.chunk.js.LICENSE.txt",
     "static/media/Navbar.module.css": "/dad_portfolio/static/media/Original.32992dfc.otf",
     "static/media/drum.20330f61.jpg": "/dad_portfolio/static/media/drum.20330f61.jpg",
@@ -57,7 +57,7 @@
     "static/js/runtime-main.778f6a17.js",
     "static/css/2.4659568d.chunk.css",
     "static/js/2.cc0d6ded.chunk.js",
-    "static/css/main.50ab1516.chunk.css",
-    "static/js/main.5098c5a3.chunk.js"
+    "static/css/main.7e567f55.chunk.css",
+    "static/js/main.a20b701a.chunk.js"
   ]
 }
