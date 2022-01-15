@@ -5,7 +5,7 @@ const Footer = () => {
   
   return ( 
 
-    <footer>
+    <footer className="">
 
       <ul>
         <li> musique : Philippe d'Ercole & Co</li>
