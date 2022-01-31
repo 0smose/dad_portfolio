@@ -5,12 +5,7 @@ import {
   Link,
 } from 'react-router-dom';
 
-
-
-import Navbar from './components/Navbar/Navbar'
 import Footer from './components/Footer/Footer';
-import Apropos from './pages/Apropos'
-import Accueil from './pages/Accueil'
 import Galerie from './pages/Galerie'
 import ErrorPage from './pages/ErrorPage';
 import Sundaz from './pages/Galerie/Sundaz';
