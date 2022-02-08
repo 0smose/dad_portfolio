@@ -4,6 +4,10 @@
 }
 
 
+* {
+  /* overflow-x: hidden; */
+}
+
 body {
   
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -50,7 +54,9 @@ h1 {
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
+  padding-top: 10vh;
   min-height: 95vh;
+  padding-top: 100vh;
 
 }
 
@@ -61,7 +67,11 @@ h1 {
   text-align: center;
   font-size: 7rem;
   font-family: 'theboldfont';
-  
+}
+
+.video-format {
+  width: 800px;
+  height: 450px;
 }
 
 
@@ -100,6 +110,7 @@ h1 {
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap; 
+  column-gap: 8vw;
 }
 
 .bandcamp iframe{
@@ -137,6 +148,159 @@ h1 {
   margin-bottom: 3rem;
 }
 
+
+.banner {
+  height: 100vh;
+  width: 100vw; 
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: fixed;
+  z-index: -9999;
+}
+
+#sounge-banner {
+  background-image: url("../src/assets/logo/sounge.png");
+}
+
+#sundaz-banner {
+  background-image: url("../src/assets/logo/sundaz.png");
+}
+
+#solidbody-banner {
+  background-image: url("../src/assets/logo/solidbody.png");
+}
+
+#theduet-banner-background-bigscreen {
+  background: linear-gradient(90deg, rgba(234, 106, 198, 0.61) 0%, rgba(56, 62, 220, 0.86) 100%);
+}
+
+#theduet-banner-background-tablet {
+  background: linear-gradient(143.86deg, rgba(234, 106, 198, 0.61) 0%, rgba(56, 62, 220, 0.86) 100%);
+}
+
+.theduet-banner {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); 
+}
+
+/* THE DUET LOGO ANIMATION */
+
+
+#theduet-logo-bigscreen {
+  animation: test 0.5s ease forwards 3s;
+  
+}
+
+#theduet-logo-tablet {
+  animation: test 0.5s ease forwards 3s;
+  
+}
+
+#theduet-logo-bigscreen path:nth-child(2) {
+  stroke-dasharray: 718;
+  stroke-dashoffset: 718;
+  animation: line-anim 2s ease forwards 0.3s;
+
+}
+
+#theduet-logo-bigscreen path:nth-child(3) {
+  stroke-dasharray: 744;
+  stroke-dashoffset: 744;
+  animation: line-anim 2s ease forwards 0.6s;
+}
+
+#theduet-logo-bigscreen path:nth-child(4) {
+  stroke-dasharray: 744;
+  stroke-dashoffset: 744;
+  animation: line-anim 2s ease forwards 0.9s;
+}
+
+#theduet-logo-bigscreen path:nth-child(5) {
+  stroke-dasharray: 522;
+  stroke-dashoffset: 522;
+  animation: line-anim 2s ease forwards 1.2s;
+}
+
+#theduet-logo-bigscreen path:nth-child(6) {
+  stroke-dasharray: 679;
+  stroke-dashoffset: 679;
+  animation: line-anim 2s ease forwards 1.5s;
+}
+
+#theduet-logo-bigscreen path:nth-child(7) {
+  stroke-dasharray: 744;
+  stroke-dashoffset: 744;
+  animation: line-anim 2s ease forwards 1.8s;
+}
+
+#theduet-logo-bigscreen path:nth-child(8) {
+  stroke-dasharray: 522;
+  stroke-dashoffset: 522;
+  animation: line-anim 2s ease forwards 2.1s;
+}
+
+
+/* ANIMATION THE DUET TABLET */
+
+
+#theduet-logo-tablet path:nth-child(2) {
+  stroke-dasharray: 718;
+  stroke-dashoffset: 718;
+  animation: line-anim 2s ease forwards 0.3s;
+
+}
+
+#theduet-logo-tablet path:nth-child(3) {
+  stroke-dasharray: 744;
+  stroke-dashoffset: 744;
+  animation: line-anim 2s ease forwards 0.6s;
+}
+
+#theduet-logo-tablet path:nth-child(4) {
+  stroke-dasharray: 744;
+  stroke-dashoffset: 744;
+  animation: line-anim 2s ease forwards 0.9s;
+}
+
+#theduet-logo-tablet path:nth-child(5) {
+  stroke-dasharray: 522;
+  stroke-dashoffset: 522;
+  animation: line-anim 2s ease forwards 1.2s;
+}
+
+#theduet-logo-tablet path:nth-child(6) {
+  stroke-dasharray: 679;
+  stroke-dashoffset: 679;
+  animation: line-anim 2s ease forwards 1.5s;
+}
+
+#theduet-logo-tablet path:nth-child(7) {
+  stroke-dasharray: 744;
+  stroke-dashoffset: 744;
+  animation: line-anim 2s ease forwards 1.8s;
+}
+
+#theduet-logo-tablet path:nth-child(8) {
+  stroke-dasharray: 522;
+  stroke-dashoffset: 522;
+  animation: line-anim 2s ease forwards 2.1s;
+}
+
+
+@keyframes line-anim {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+@keyframes test {
+  to {
+    fill: white;
+  }
+}
 
 
 /* trick pour resize la video youtube pour des écrans inférieurs à 600 px */
@@ -180,6 +344,56 @@ h1 {
 
   }
 
+.banner {
+  background-size: cover;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+
+/* CELLPHONE PORTRAIT  */
+
+#sounge-banner {
+  background-image: url("../src/assets/logo/sounge_cellphone_portrait.png");
+}
+
+#sundaz-banner {
+  background-image: url("../src/assets/logo/sundaz_cellphone_portrait.png");
+}
+
+#solidbody-banner {
+  background-image: url("../src/assets/logo/solidbody_cellphone_portrait.png");
+}
+
+
+
+
+}
+
+
+
+/* TABLET PORTRAIT */
+
+@media (min-width: 500px) and (max-width: 1025px) {
+  #solidbody-banner {
+    background-image: url("../src/assets/logo/vertical_solidbody.png");
+  }
+
+  #sounge-banner {
+    background-image: url("../src/assets/logo/sounge_tablet.png");
+  }
+   
+}
+
+
+/* TABLET LANDSCAPE */
+
+@media (min-width: 1026px) and (max-width: 1200px) {
+  #sounge-banner {
+    background-image: url("../src/assets/logo/sounge_tablet_landscape.png");
+  }
+
 }
 
 
@@ -202,16 +416,32 @@ h1 {
     }
 }
 
+/* LANDSCAPE CELLPHONE  */
+
+@media (max-height: 420px ) {
+  #sundaz-banner {
+    background-image: url("../src/assets/logo/sundaz_cellphone_landscape.png");
+  }
+
+  #solidbody-banner {
+    background-image: url("../src/assets/logo/solidbody_cellphone_landscape.png");
+  }
+
+  #sounge-banner {
+    background-image: url("../src/assets/logo/sounge_cellphone_landscape.png");
+  }
 
 
+
+}
 
 /* fin du trick */
 
 @media (min-width: 1100px) {
 
-  .solidbody > .soundcloud {
+  /* .solidbody > .soundcloud {
     margin-top: -50vh;
   
-  }
+  } */
   
 }

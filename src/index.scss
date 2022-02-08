@@ -1,217 +1,226 @@
-@font-face {
-  font-family: 'theboldfont';
-  src: local('theboldfont'), url(fonts/theboldfont.ttf) format('truetype');
-}
+// @font-face {
+//   font-family: 'theboldfont';
+//   src: local('theboldfont'), url(fonts/theboldfont.ttf) format('truetype');
+// }
 
 
-body {
+// body {
   
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  background-image: linear-gradient(to right, #eea2a2 0%, #bbc1bf 19%, #57c6e1 42%, #b49fda 79%, #76df30a4 100%);
+//   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+//     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+//     sans-serif;
+//   -webkit-font-smoothing: antialiased;
+//   -moz-osx-font-smoothing: grayscale;
+//   background-image: linear-gradient(to right, #eea2a2 0%, #bbc1bf 19%, #57c6e1 42%, #b49fda 79%, #76df30a4 100%);
 
-}
+// }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;   
-}
-
-
-h1 {
-  overflow-y: hidden;
-}
-
-/* SOUND GALLERY */
+// code {
+//   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+//     monospace;   
+// }
 
 
+// h1 {
+//   overflow-y: hidden;
+// }
 
-.title {
-  padding-top: 130px !important;
-}
+// /* SOUND GALLERY */
 
 
-.centered {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  align-items: center;
-  flex-grow: 1;
-  margin: 0;
-  padding: 0;
-}
 
-/* Youtube section */
+// .title {
+//   padding-top: 130px !important;
+// }
 
-.wrapper-youtube {
-  display: flex;
-  justify-content: space-evenly;
-  flex-wrap: wrap;
-  min-height: 95vh;
 
-}
+// .centered {
+//   display: flex;
+//   justify-content: center;
+//   flex-wrap: wrap;
+//   align-items: center;
+//   flex-grow: 1;
+//   margin: 0;
+//   padding: 0;
+// }
 
-.wrapper-youtube h2 {
-  flex: 0 1 100%;
-  padding-bottom: 80px;
-  padding-top: 40px;
-  text-align: center;
-  font-size: 7rem;
-  font-family: 'theboldfont';
+// /* Youtube section */
+
+// .wrapper-youtube {
+//   display: flex;
+//   justify-content: space-evenly;
+//   flex-wrap: wrap;
+//   min-height: 95vh;
+
+// }
+
+// .wrapper-youtube h2 {
+//   flex: 0 1 100%;
+//   padding-bottom: 80px;
+//   padding-top: 40px;
+//   text-align: center;
+//   font-size: 7rem;
+//   font-family: 'theboldfont';
   
-}
+// }
 
 
-#bazar {
-  color: #9808f8;
-  text-shadow: 7px 2px 2px #a46dc8;
-}
+// #bazar {
+//   color: #9808f8;
+//   text-shadow: 7px 2px 2px #a46dc8;
+// }
 
-#sounge {
-  color: #0b7af8;
-  text-shadow: 7px 2px 2px #5186c3;
+// #sounge {
+//   color: #0b7af8;
+//   text-shadow: 7px 2px 2px #5186c3;
 
-}
+// }
 
-#theDuet {
-  color: #ff097c;
-  text-shadow: 7px 2px 2px rgb(167, 145, 145);
-}
+// #theDuet {
+//   color: #ff097c;
+//   text-shadow: 7px 2px 2px rgb(167, 145, 145);
+// }
 
-#sundaz {
-  color: #fff706;
-  text-shadow: 7px 2px 2px #61603c;
+// #sundaz {
+//   color: #fff706;
+//   text-shadow: 7px 2px 2px #61603c;
   
-}
+// }
 
-#Solidbody{
-  color: #27F23F;
-  text-shadow: 7px 2px 2px #73b87b;
-}
-
-
-
-/* BANDCAMP SUNDAZ */
-
-.bandcamp {
-  display: flex;
-  justify-content: space-evenly;
-  flex-wrap: wrap; 
-}
-
-.bandcamp iframe{
-
-  margin-bottom: 3rem;
-}
-
-.icon{
-  display: inline ;
-  margin-top: 50px;
-  margin-left: 20px;
-  background-color: inherit;
-  border: none;
-  color: rgb(13, 221, 221);
-  position: fixed;
-}
-
-
-.icon:hover {
-  transition: 0.5s;
-  transform: scale(1.2);
-}
-
-.soundcloud {
-  display: flex;
-  justify-content: center;
-  width: 100%;
-  flex-wrap: wrap;
-  flex-direction: column;
-  align-items: center;
-}
-
-
-.soundcloud > * {
-  margin-bottom: 3rem;
-}
+// #Solidbody{
+//   color: #27F23F;
+//   text-shadow: 7px 2px 2px #73b87b;
+// }
 
 
 
-/* trick pour resize la video youtube pour des écrans inférieurs à 600 px */
+// /* BANDCAMP SUNDAZ */
 
-@media screen and (max-width: 1024px) {
+// .bandcamp {
+//   display: flex;
+//   justify-content: space-evenly;
+//   flex-wrap: wrap; 
+// }
 
-  .youtube-video {
-    position: relative;
-    width: 80%;
-    padding-bottom: 45%; 
-    height: 0;
-  }
+// .bandcamp iframe{
 
-  .youtube-video iframe {
-    position: absolute;
-    top:0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-  }
+//   margin-bottom: 3rem;
+// }
+
+// .icon{
+//   display: inline ;
+//   margin-top: 50px;
+//   margin-left: 20px;
+//   background-color: inherit;
+//   border: none;
+//   color: rgb(13, 221, 221);
+//   position: fixed;
+// }
 
 
-.soundcloud iframe{
-  position: relative;
-  width: 80%;
-  height: 100%;
-}
+// .icon:hover {
+//   transition: 0.5s;
+//   transform: scale(1.2);
+// }
 
-.wrapper-youtube h2 {
-  flex: 0 1 100%;
-  padding-bottom: 80px;
-  padding-top: 40px;
-  text-align: center;
-  font-size: 6rem;
-  font-family: 'theboldfont';
+// .soundcloud {
+//   display: flex;
+//   justify-content: center;
+//   width: 100%;
+//   flex-wrap: wrap;
+//   flex-direction: column;
+//   align-items: center;
+// }
+
+
+// .soundcloud > * {
+//   margin-bottom: 3rem;
+// }
+
+
+
+// /* trick pour resize la video youtube pour des écrans inférieurs à 600 px */
+
+// @media screen and (max-width: 1024px) {
+
+//   .youtube-video {
+//     position: relative;
+//     width: 80%;
+//     padding-bottom: 45%; 
+//     height: 0;
+//   }
+
+//   .youtube-video iframe {
+//     position: absolute;
+//     top:0;
+//     left: 0;
+//     width: 100%;
+//     height: 100%;
+//   }
+
+
+// .soundcloud iframe{
+//   position: relative;
+//   width: 80%;
+//   height: 100%;
+// }
+
+// .wrapper-youtube h2 {
+//   flex: 0 1 100%;
+//   padding-bottom: 80px;
+//   padding-top: 40px;
+//   text-align: center;
+//   font-size: 6rem;
+//   font-family: 'theboldfont';
   
-}
+// }
 
-.wrapper-youtube {
-  min-height: auto;
+// .wrapper-youtube {
+//   min-height: auto;
 
-  }
+//   }
 
-}
+// }
 
+// .banner {
 
- /* CELLPHONES  */
- @media (max-width: 767px) {
-  .wrapper-youtube h2 {
-    flex: 0 1 100%;
-    padding-bottom: 80px;
-    padding-top: 40px;
-    text-align: center;
-    font-size: 3rem;
-    font-family: 'theboldfont';
-    }
-}
-
-@media (max-width: 767px) {
-  .wrapper-youtube {
-    min-height: auto;
-
-    }
-}
+//   height: 100vh;
+//   width: 100vw; 
+//   background-image: url("../src/assets/logo/sounge.png");
+//   background-size: cover;
+//   background-repeat: no-repeat
+// }
 
 
+//  /* CELLPHONES  */
+//  @media (max-width: 767px) {
+//   .wrapper-youtube h2 {
+//     flex: 0 1 100%;
+//     padding-bottom: 80px;
+//     padding-top: 40px;
+//     text-align: center;
+//     font-size: 3rem;
+//     font-family: 'theboldfont';
+//     }
+// }
+
+// @media (max-width: 767px) {
+//   .wrapper-youtube {
+//     min-height: auto;
+
+//     }
+// }
 
 
-/* fin du trick */
 
-@media (min-width: 1100px) {
 
-  .solidbody > .soundcloud {
-    margin-top: -450px;
+// /* fin du trick */
+
+// @media (min-width: 1100px) {
+
+//   .solidbody > .soundcloud {
+//     margin-top: -450px;
   
-  }
+//   }
   
-}
+// }

@@ -16,13 +16,13 @@ const Bazar = () => {
    
         <div className="youtube-video mb-5">
 
-          <iframe width="600" height="337" src="https://www.youtube.com/embed/Dn999h5D330" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="true"></iframe>
+          <iframe className='video-format' src="https://www.youtube.com/embed/Dn999h5D330" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="true"></iframe>
           
         </div>
          
         <div className="youtube-video mb-5">
 
-          <iframe frameborder="0" type="text/html" src="https://www.dailymotion.com/embed/video/x1a088x" width="600px" height="337px" allowfullscreen="true" > </iframe>
+          <iframe className='video-format' frameborder="0" type="text/html" src="https://www.dailymotion.com/embed/video/x1a088x" allowfullscreen="true" > </iframe>
  
          </div>
       

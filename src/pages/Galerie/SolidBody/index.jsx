@@ -9,10 +9,13 @@ const Solidbody = () => {
   
     <NavigationArrow/>
 
+    <div className="banner" id="solidbody-banner">
+     </div>
+
 
     <div className="wrapper-youtube ">
 
-      <h2 className="title" id="Solidbody">Solidbody</h2>  
+      {/* <h2 className="title" id="Solidbody">Solidbody</h2>   */}
 
     </div>
 
