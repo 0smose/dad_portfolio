@@ -8,6 +8,7 @@ import { Link, Switch, Route, Outlet} from 'react-router-dom'
 import Sounge from './Sounge/index'
 import Sundaz from './Sundaz/index'
 import TheDuet from './TheDuet/index'
+import Footer from '../../components/Footer/Footer';
 import classes from './SoundGallery.module.css'
 import { useState, useEffect } from 'react'
 
@@ -53,56 +54,25 @@ const Galerie = () => {
 
             </div>
 
+            <div className={classes.Allywood}>
+
+              <Link to ="Allywood">Allywood</Link>
+
+            </div>
+
+            <div className={classes.Aftertime}>
+
+              <Link to ="Aftertime">Aftertime</Link>
+
+            </div>
+
         </div>
 
         <Outlet />
      
+        <Footer/>
     </section>
-
-
-      // <Container fluid classname='container'>
-
-      //   <Row>
-
-      //     <Col>
-
-      //     Sounge
-          
-      //     </Col>
-
-      //     <Col>
-
-      //     The Duet
-          
-      //     </Col>
-
-      //     <Col>
-
-      //     Sundaz
-          
-      //     </Col>
-
-      //     <Col>
-
-      //       Solidbody
-
-      //     </Col>
-
-      //     <Col>
-
-      //       Bazar
-          
-      //     </Col>
-
-
-
-
-
-
-
-      //   </Row>
-
-      // </Container>
+    
 
   )
 }

@@ -12,6 +12,8 @@
   align-items: center;
   justify-content: space-around;
   flex: 1 1 auto;
+  background-image: linear-gradient(to right, #eea2a2 0%, #bbc1bf 19%, #57c6e1 42%, #b49fda 79%, #76df30a4 100%);
+
 
 }
 
@@ -71,6 +73,18 @@
   order: 3; 
 }
 
+.Allywood {
+  font-size: 7rem;    
+  writing-mode: vertical-rl;
+  order: 6; 
+}
+
+.Aftertime {
+  font-size: 7rem;    
+  writing-mode: vertical-rl;
+  order: 7; 
+}
+
 
 .Solidbody a:hover {
   color: #27F23F;
@@ -90,6 +104,10 @@
 
 .sounge a:hover {
   color: #0b7af8;
+}
+
+.Allywood a:hover {
+  color: #f69f08;
 }
 
 
@@ -112,33 +130,41 @@
   }
 
   .sounge a {
-    font-size: 2rem;
-    color: #0b7af8;
+    font-size: 1.3rem;
+
   }
 
   .sundaz a {
-    font-size: 2rem;
-    color: #fff706;  
+    font-size: 1.3rem;
+
 
   }
   
   .theDuet a {
-    font-size: 2rem;
-    color: #ff097c;
+    font-size: 1.3rem;
+
 
   }
 
   .Bazar a{
-    font-size: 2rem;
-    color: #9808f8;
+    font-size: 1.3rem;
+  
 
 
   }
 
   .Solidbody a{
-    font-size: 2rem;
-    color: #27F23F;
+    font-size: 1.3rem;
+   
 
+  }
+
+  .Allywood a {
+    font-size: 1.3rem;
+  }
+
+  .Aftertime a {
+    font-size: 1.3rem;
   }
 
 }
@@ -184,14 +210,19 @@
   .Bazar a{
     font-size: 4rem;
     color: #9808f8;
-
-
   }
 
   .Solidbody a{
     font-size: 4rem;
     color: #27F23F;
+  }
 
+  .Aftertime a {
+    font-size: 4rem;
+  }
+
+  .Allywood a {
+    font-size: 4rem;
   }
 }
 
@@ -201,10 +232,15 @@
 
 @media (min-width: 600px ) and (max-width: 800px) {
 
+
+  .container {
+    height: 100vh;
+  }
+
   .wrapper {
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: stretch;
     height: 95vh;
 
   }
@@ -241,7 +277,15 @@
   .Solidbody a{
     font-size: 3rem;
     color: #27F23F;
+  }
 
+
+  .Aftertime a {
+    font-size: 3rem;
+  }
+
+  .Allywood a {
+    font-size: 3rem;
   }
   
 }

@@ -13,12 +13,14 @@ import Sounge from './pages/Galerie/Sounge';
 import TheDuet from './pages/Galerie/TheDuet';
 import Bazar from './pages/Galerie/Bazar';
 import Solidbody from './pages/Galerie/SolidBody';
+import Allywood from './pages/Galerie/Allywood';
+import Aftertime from './pages/Galerie/Aftertime';
 
 
 function App() {
   return (
     <div className="App">
-      <Router basename="/dad_portfolio">        
+      <Router basename="/">        
           <Routes>
             <Route path="/" element={<Galerie />}/>
             <Route path="/Sundaz" element={<Sundaz />} />
@@ -26,9 +28,10 @@ function App() {
             <Route path="/TheDuet" element={<TheDuet />} />
             <Route path="/Solidbody" element={<Solidbody />} />
             <Route path="/Bazar" element={<Bazar />} />
+            <Route path="/Allywood" element={<Allywood />} />
+            <Route path="/Aftertime" element={<Aftertime />} />
             <Route path="*" element={<ErrorPage />} />      
           </Routes>
-        <Footer/>
       </Router>
     </div>
   );

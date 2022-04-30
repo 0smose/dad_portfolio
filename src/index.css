@@ -3,10 +3,14 @@
   src: local('theboldfont'), url(fonts/theboldfont.ttf) format('truetype');
 }
 
-
-* {
-  /* overflow-x: hidden; */
+@font-face {
+  font-family: 'Arabian3';
+  src: local('Arabian3'), url(fonts/Arabian3.ttf) format('truetype');
 }
+
+
+
+
 
 body {
   
@@ -15,7 +19,6 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-image: linear-gradient(to right, #eea2a2 0%, #bbc1bf 19%, #57c6e1 42%, #b49fda 79%, #76df30a4 100%);
 
 }
 
@@ -179,25 +182,32 @@ h1 {
   background: linear-gradient(143.86deg, rgba(234, 106, 198, 0.61) 0%, rgba(56, 62, 220, 0.86) 100%);
 }
 
-.theduet-banner {
+#allywood-banner {
+  background-image: url("../src/assets/logo/allywood_laptop.png");
+  background-size: cover;
+}
+
+#aftertime-banner {
+  background-image: url("../src/assets/logo/aftertime_laptop.png");
+  background-size: cover;
+}  
+
+.banner-position {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%); 
+  transform: translate(-50%, -50%);
+  font-size: 200px;
+  color: #48beff;
+}
+
+.bazar {
+  font-family: 'Arabian3';
 }
 
 /* THE DUET LOGO ANIMATION */
 
 
-#theduet-logo-bigscreen {
-  animation: test 0.5s ease forwards 3s;
-  
-}
-
-#theduet-logo-tablet {
-  animation: test 0.5s ease forwards 3s;
-  
-}
 
 #theduet-logo-bigscreen path:nth-child(2) {
   stroke-dasharray: 718;
@@ -296,9 +306,48 @@ h1 {
   }
 }
 
-@keyframes test {
+
+/* ANIMATION BAZAR */
+
+#draw-line {
+  fill: none;
+  stroke-width: 1px;
+  /* Stroke-dasharray property */
+  stroke-dasharray: 1500; 
+  stroke-dashoffset: 1500;
+
+ animation: move 10s linear; 
+ animation-fill-mode: forwards;
+  
+}
+
+#draw-line:circle {
+  background-color: aqua;
+}
+
+
+
+@keyframes move {
   to {
-    fill: white;
+      stroke-dashoffset: 0;
+  }
+}
+
+#bazar-banner {
+  background: radial-gradient(50% 50% at 50% 50%, rgba(255, 231, 13, 0.6264) 0%, rgba(252, 236, 94, 0.5616) 91.15%);
+}
+
+#bazar-svg {
+  animation: blink 5s ease ;
+}
+
+
+@keyframes blink {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
   }
 }
 
@@ -439,9 +488,6 @@ h1 {
 
 @media (min-width: 1100px) {
 
-  /* .solidbody > .soundcloud {
-    margin-top: -50vh;
-  
-  } */
+ 
   
 }

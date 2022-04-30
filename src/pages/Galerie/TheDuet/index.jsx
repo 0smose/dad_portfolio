@@ -19,7 +19,7 @@ const TheDuet = () => {
       {isBigScreen &&  
 
        <div className="banner" id="theduet-banner-background-bigscreen" >
-        <svg className="theduet-banner" id="theduet-logo-bigscreen" width="1077" height="152" viewBox="0 0 1077 152" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <svg className="banner-position" id="theduet-logo-bigscreen" width="1077" height="152" viewBox="0 0 1077 152" fill="none" xmlns="http://www.w3.org/2000/svg">
           <mask id="path-1-outside-1_7_7" maskUnits="userSpaceOnUse" x="0" y="0" width="1077" height="152" fill="black">
           <rect fill="white" width="1077" height="152"/>
           <path d="M10.4 5H127.6C129.067 5 130.333 5.53334 131.4 6.60001C132.467 7.66667 133 8.93335 133 10.4V42.6C133 44.0667 132.467 45.3333 131.4 46.4C130.333 47.4667 129.067 48 127.6 48H94.4V139.6C94.4 141.067 93.8667 142.333 92.8 143.4C91.7333 144.467 90.4667 145 89 145H49C47.5333 145 46.2667 144.467 45.2 143.4C44.1333 142.333 43.6 141.067 43.6 139.6V48H10.4C8.93333 48 7.66667 47.4667 6.6 46.4C5.53333 45.3333 5 44.0667 5 42.6V10.4C5 8.93335 5.53333 7.66667 6.6 6.60001C7.66667 5.53334 8.93333 5 10.4 5Z"/>

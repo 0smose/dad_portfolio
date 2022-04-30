@@ -24,7 +24,7 @@
     "styled-components": "^5.3.3",
     "web-vitals": "^1.0.1"
   },
-  "homepage": "https://0smose.github.io/dad_portfolio/",
+  "homepage": "https://robindercole.fr",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
