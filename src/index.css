@@ -491,7 +491,7 @@ h1 {
 
 /* Ipad pro portrait*/
 
-@media (min-width: 1025px) and (max-width: 1300px) {
+@media (min-width: 1024px) and (max-width: 1366px) and (orientation: portrait)  {
   #allywood-banner {
     background-image: url("../src/assets/logo/allywood_cellphone_portrait.png");
   }

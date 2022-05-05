@@ -186,8 +186,7 @@
     height: 95vh;
     display: flex;
     flex-direction: column;
-    /* justify-content: space-evenly; */
-    /* align-items: center; */
+    justify-content: center;
 
   }
 
@@ -197,38 +196,30 @@
   }
 
   .sounge a {
-    font-size: 4rem;
-    color: #0b7af8;
-  }
+    font-size: 2.5rem;
+    }
 
   .sundaz a {
-    font-size: 4rem;
-    color: #fff706;  
-
+    font-size: 2.5rem;
   }
   
   .theDuet a {
-    font-size: 4rem;
-    color: #ff097c;
-
+    font-size: 2.5rem;
   }
 
   .Bazar a{
-    font-size: 4rem;
-    color: #9808f8;
-  }
+    font-size: 2.5rem;  }
 
   .Solidbody a{
-    font-size: 4rem;
-    color: #27F23F;
+    font-size: 2.5rem;
   }
 
   .Aftertime a {
-    font-size: 4rem;
+    font-size: 2.5rem;
   }
 
   .Allywood a {
-    font-size: 4rem;
+    font-size: 2.5rem;
   }
 }
 
@@ -246,7 +237,7 @@
   .wrapper {
     display: flex;
     flex-direction: column;
-    justify-content: stretch;
+    justify-content: center;
     height: 95vh;
 
   }
@@ -258,40 +249,32 @@
   }
 
     .sounge a {
-    font-size: 3rem;
-    color: #0b7af8;
+    font-size: 2rem;
   }
 
   .sundaz a {
-    font-size: 3rem;
-    color: #fff706;  
-
+    font-size: 2rem;
   }
   
   .theDuet a {
-    font-size: 3rem;
-    color: #ff097c;
-
+    font-size: 2rem;
   }
 
   .Bazar a{
-    font-size: 3rem;
-    color: #9808f8;
-
+    font-size: 2rem;
   }
 
   .Solidbody a{
-    font-size: 3rem;
-    color: #27F23F;
+    font-size: 2rem;
   }
 
 
   .Aftertime a {
-    font-size: 3rem;
+    font-size: 2rem;
   }
 
   .Allywood a {
-    font-size: 3rem;
+    font-size: 2rem;
   }
   
 }
