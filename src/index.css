@@ -203,6 +203,7 @@ h1 {
 
 .bazar {
   font-family: 'Arabian3';
+  font-size: 25vw;
 }
 
 /* THE DUET LOGO ANIMATION */
@@ -299,6 +300,14 @@ h1 {
   animation: line-anim 2s ease forwards 2.1s;
 }
 
+#theduet-logo-tablet {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  
+}
+
 
 @keyframes line-anim {
   to {
@@ -309,6 +318,11 @@ h1 {
 
 /* ANIMATION BAZAR */
 
+#bazar-svg {
+
+
+}
+
 #draw-line {
   fill: none;
   stroke-width: 1px;
@@ -318,6 +332,11 @@ h1 {
 
  animation: move 10s linear; 
  animation-fill-mode: forwards;
+
+ position: absolute;
+ top: 50%;
+ left: 50%;
+ transform: translate(-50%, -50%) scale(2);
   
 }
 
@@ -336,6 +355,7 @@ h1 {
 #bazar-banner {
   background: radial-gradient(50% 50% at 50% 50%, rgba(255, 231, 13, 0.6264) 0%, rgba(252, 236, 94, 0.5616) 91.15%);
 }
+
 
 #bazar-svg {
   animation: blink 5s ease ;
@@ -415,6 +435,10 @@ h1 {
   background-image: url("../src/assets/logo/solidbody_cellphone_portrait.png");
 }
 
+#allywood-banner {
+  background-image: url("../src/assets/logo/allywood_cellphone_portrait.png");
+}
+
 
 
 
@@ -432,18 +456,49 @@ h1 {
   #sounge-banner {
     background-image: url("../src/assets/logo/sounge_tablet.png");
   }
+
+  #allywood-banner {
+    background-image: url("../src/assets/logo/allywood_tablet_portrait.png");
+  }
    
 }
 
 
 /* TABLET LANDSCAPE */
 
-@media (min-width: 1026px) and (max-width: 1200px) {
+@media (min-width: 1024px) and (max-width: 1200px) {
   #sounge-banner {
     background-image: url("../src/assets/logo/sounge_tablet_landscape.png");
   }
 
+  #allywood-banner {
+    background-image: url("../src/assets/logo/allywood_tablet_landscape.png");
+  }
+
 }
+
+
+
+/* Ipad pro  Landscape*/
+
+@media (min-width: 1300px) and (max-width: 1400px) {
+  #allywood-banner {
+    background-image: url("../src/assets/logo/allywood_tablet_landscape.png");
+  }
+
+}
+
+
+/* Ipad pro portrait*/
+
+@media (min-width: 1025px) and (max-width: 1300px) {
+  #allywood-banner {
+    background-image: url("../src/assets/logo/allywood_cellphone_portrait.png");
+  }
+
+}
+
+
 
 
  /* CELLPHONES  */
@@ -480,6 +535,9 @@ h1 {
     background-image: url("../src/assets/logo/sounge_cellphone_landscape.png");
   }
 
+  #allywood-banner {
+    background-image: url("../src/assets/logo/allywood_cellphone_landscape.png");
+  }
 
 
 }

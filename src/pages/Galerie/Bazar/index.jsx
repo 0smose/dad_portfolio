@@ -5,7 +5,6 @@ import { useEffect } from 'react';
 const Bazar = () => {
 
 
-
 useEffect(() => {
   const path = document.querySelectorAll('#draw-line path ');
   console.log(path.length);
@@ -36,6 +35,7 @@ useEffect(() => {
     {/* <svg className="" id="draw-line" viewBox="0 0 1440 366" fill="none" xmlns="http://www.w3.org/2000/svg">
       <path fill-rule="evenodd" clip-rule="evenodd" d="M1321.42 111.36C1235.54 38.3607 1095.88 -10.1523 880.839 3.93482C667.483 17.9116 379.957 93.5105 -2.79263 267.913L-3.20728 267.003C379.604 92.5724 667.254 16.9245 880.774 2.93696C1095.99 -11.1615 1235.93 37.3811 1322.07 110.598C1408.22 183.814 1440.5 281.65 1440.5 366H1439.5C1439.5 281.898 1407.31 184.358 1321.42 111.36Z"/>
     </svg> */}
+
 
       <svg id="draw-line" viewBox="0 0 1440 529" fill="none" xmlns="http://www.w3.org/2000/svg">
         <line y1="473.5" x2="1440" y2="473.5" stroke="black"/>
@@ -109,7 +109,6 @@ useEffect(() => {
         </mask>
         <path d="M866 419C866 408.922 861.838 399.256 854.431 392.13C847.023 385.004 836.976 381 826.5 381C816.024 381 805.977 385.004 798.569 392.13C791.162 399.256 787 408.922 787 419L826.5 419H866Z" stroke="black" stroke-width="2" mask="url(#path-34-inside-11_8_104)"/>
       </svg>
-
 
 
     
