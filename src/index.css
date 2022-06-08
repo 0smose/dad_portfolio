@@ -9,6 +9,11 @@
 }
 
 
+@font-face {
+  font-family: 'Coalition';
+  src: local('Coalition'), url(fonts/coalition/Coalition_v2..ttf) format('truetype');
+}
+
 
 
 
@@ -172,6 +177,23 @@ h1 {
 
 #solidbody-banner {
   background-image: url("../src/assets/logo/solidbody.png");
+}
+
+#neo-banner {
+  background-image: url("../src/assets/logo/neo.png");
+}
+
+#neo-title {
+  color: white;
+  font-family: 'Coalition';
+  font-size: 300px;
+  letter-spacing: 30px;
+  z-index:999;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+ 
 }
 
 #theduet-banner-background-bigscreen {
@@ -549,3 +571,16 @@ h1 {
  
   
 }
+
+.error404 {
+  background-image: linear-gradient(to right, #eea2a2 0%, #bbc1bf 19%, #57c6e1 42%, #b49fda 79%, #76df30a4 100%);
+  font-family: 'theboldfont';
+  font-size: calc(1rem + 2vw);
+  color: #655560;
+  height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+

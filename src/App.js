@@ -15,6 +15,7 @@ import Bazar from './pages/Galerie/Bazar';
 import Solidbody from './pages/Galerie/SolidBody';
 import Allywood from './pages/Galerie/Allywood';
 import Aftertime from './pages/Galerie/Aftertime';
+import Neo from './pages/Galerie/Neo';
 
 
 function App() {
@@ -30,6 +31,7 @@ function App() {
             <Route path="/Bazar" element={<Bazar />} />
             <Route path="/Allywood" element={<Allywood />} />
             <Route path="/Aftertime" element={<Aftertime />} />
+            <Route path="/Neo" element={<Neo />} />
             <Route path="*" element={<ErrorPage />} />      
           </Routes>
       </Router>

@@ -1,7 +1,9 @@
 const ErrorPage = () => {
   return ( 
 
-    <h2> ERROR PAGE</h2>
+    <div className="error404">
+      <p> 404 ERROR PAGE NON TROUVÉE</p>
+    </div>
   );
 }
  

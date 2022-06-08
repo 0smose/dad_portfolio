@@ -44,11 +44,7 @@
 .sundaz {
   font-size: 7rem;
   writing-mode: vertical-rl;
-  
   order: 1;
-
-
-  
 }
 
 .theDuet {
@@ -81,13 +77,12 @@
 
 .Aftertime {
   font-size: 7rem;    
-  writing-mode: vertical-rl;
   order: 7; 
 }
 
 
-.Solidbody a:hover {
-  color: #27F23F;
+.Neo {
+  font-size: 7rem;
 }
 
 .Bazar a:hover {
@@ -98,12 +93,17 @@
   color: #ff097c;
 }
 
+
 .sundaz a:hover {
-  color: #fff706;  
+  color: #fff706;
 }
 
 .sounge a:hover {
   color: #0b7af8;
+}
+
+.Solidbody a:hover {
+  color: #27F23F;
 }
 
 .Allywood a:hover {
@@ -111,8 +111,47 @@
 }
 
 .Aftertime a:hover {
-  color:#0b7af8;
+  color:#6520e7;
 }
+
+.Neo a:hover {
+  color: #1acd1a;
+}
+
+ /* animation de fifou rotate + logo  */
+
+/* .sundaz a:hover {
+  color: #fff706; 
+  content: url(../../assets/logo/sundaz_cellphone_portrait.png);
+  display: block;
+  transform: rotate(0deg);
+  opacity: 0.8;
+  transition: 0.3s;
+  transform: scale(0.7);
+  
+}
+
+.sounge a:hover {
+  color: #0b7af8;
+  content: url(../../assets/logo/sounge_cellphone_portrait.png);
+  display: block;
+  transform: rotate(0deg);
+  opacity: 0.8;
+  transition: 0.3s;
+  transform: scale(0.7);
+  
+} */
+
+
+/* .Solidbody a:hover {
+  color: #27F23F;
+  content: url(../../assets/logo/solidbody_cellphone_portrait.png);
+  display: block;
+  transform: scale(0.7);
+
+  
+} */
+
 
 
 
