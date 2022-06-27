@@ -19,7 +19,8 @@ const Allywood = () => {
 
     <div className="wrapper-youtube bandcamp">
 
-    <iframe style={{border: "0", width: "400px", height: "472px"}} src="https://bandcamp.com/EmbeddedPlayer/album=2208090458/size=large/bgcol=ffffff/linkcol=0687f5/artwork=small/transparent=true/" seamless><a href="https://panfilofiglio.bandcamp.com/album/allywood">Allywood by Panfilo</a></iframe>
+      <iframe style={{border: "0", width: "400px", height: "472px"}} src="https://bandcamp.com/EmbeddedPlayer/album=2208090458/size=large/bgcol=ffffff/linkcol=0687f5/artwork=small/transparent=true/" seamless><a href="https://panfilofiglio.bandcamp.com/album/allywood">Allywood by Panfilo</a></iframe>
+    
     </div>
 
     

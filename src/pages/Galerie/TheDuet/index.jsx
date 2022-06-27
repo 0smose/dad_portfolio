@@ -72,12 +72,10 @@ const TheDuet = () => {
 
 
 
-     
-      
-
       <div className="wrapper-youtube">
 
         {/* <h2 className="title" id="theDuet">The Duet</h2> */}
+        
 
         <div className="youtube-video mb-5">
 
@@ -98,6 +96,12 @@ const TheDuet = () => {
         </div>
       
       </div>
+
+      <div className="bandcamp-theduet">
+
+        <iframe style={{border: "0", width: "400px", height: "472px"}} src="https://bandcamp.com/EmbeddedPlayer/album=3255367743/size=large/bgcol=ffffff/linkcol=0687f5/artwork=small/transparent=true/" seamless><a href="https://panfilofiglio.bandcamp.com/album/the-duet-n-philippe-dercole-first-rain">The duet &#39;n&#39; Philippe d&#39;Ercole - First Rain by Panfilo</a></iframe>
+
+      </div>  
       
     </div>  
 
