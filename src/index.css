@@ -487,6 +487,10 @@ h1 {
   #allywood-banner {
     background-image: url("../src/assets/logo/allywood_tablet_portrait.png");
   }
+
+  #neo-title {
+    font-size: 200px;
+  }
    
 }
 
@@ -500,6 +504,10 @@ h1 {
 
   #allywood-banner {
     background-image: url("../src/assets/logo/allywood_tablet_landscape.png");
+  }
+
+  #neo-title {
+    font-size: 200px;
   }
 
 }
@@ -545,6 +553,11 @@ h1 {
     min-height: auto;
 
     }
+
+  #neo-title {
+     font-size: 90px;
+     padding-left: 35px;
+  }
 }
 
 /* LANDSCAPE CELLPHONE  */
